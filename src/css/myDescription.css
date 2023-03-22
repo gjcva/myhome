@@ -1,0 +1,27 @@
+.myDescription .container {
+  margin: 0 auto;
+}
+.myDescription .container .row {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.myDescription .container .row .image {
+  max-width: 240px;
+  width: 100%;
+  padding-bottom: 15px;
+}
+.myDescription .container .row .image img {
+  max-width: 100%;
+  width: 100%;
+}
+.myDescription .container .row .description {
+  max-width: 569px;
+  width: 100%;
+
+  color: var(--White);
+  font-size: 15px;
+  font-weight: bold;
+
+  letter-spacing: 3px;
+  line-height: 22px;
+}

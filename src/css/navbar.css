@@ -1,0 +1,36 @@
+.navbar {
+  background-color: var(--Blue);
+  min-height: 89px;
+
+  display:flex;
+  align-items: center;
+}
+.navbar .container {
+  margin: 0 auto;
+}
+.navbar .container .row {
+  align-items: center;
+  justify-content: center;
+}
+.navbar .container .row .menuList {
+  max-width: 540px;
+  margin-right: auto;
+}
+.navbar .container .row .menuList ul {
+  display: flex;
+  align-items: center;
+
+  list-style-type: none;
+  gap: 20px;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+.navbar .container .row .menuList ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  word-spacing: -5px;
+
+  color: var(--White);
+}

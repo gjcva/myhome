@@ -1,0 +1,15 @@
+.footer {
+  min-height: 70px;
+
+  background-color: var(--Blue);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .container {
+  margin: 0 auto;
+}
+.footer .container .row {
+  justify-content: center;
+}

@@ -1,0 +1,25 @@
+@media (max-width:680px){
+  .navbar .container .row .menuList {
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+  .stripeWhite {
+    font-size: 26px;
+  }
+}
+@media (max-width:610px){
+  .myHobbies .container .row .boxHobby {
+    justify-content: center;
+  }
+  .myDescription .container .row .description,
+  .myHobbies .container .row .description,
+  .myFavoritesSubjects .container .row .description {
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: bold;
+
+
+    line-height: 18px;
+  }
+}
